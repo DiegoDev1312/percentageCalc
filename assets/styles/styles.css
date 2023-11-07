@@ -89,4 +89,12 @@ button {
     form {
         padding: 0px 20px;
     }
+    .percentage-area {
+        flex-direction: column;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
 }
