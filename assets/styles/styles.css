@@ -1,0 +1,92 @@
+:root {
+    --font-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(400eg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(8,37,140,1) 66%, rgba(0,212,255,1) 100%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset {
+    border: 2px solid var(--font-color);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+legend {
+    color: var(--font-color);
+    text-align: center;
+    padding: 12px;
+}
+
+label {
+    color: var(--font-color);
+}
+
+.label-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.percentage-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.result-percentage {
+    background-color: var(--font-color);
+}
+
+input {
+    width: 150px;
+    padding: 9px;
+    border-radius: 6px;
+    outline: nne;
+}
+
+.result-percentage {
+    margin-top: 12px;
+    display: none;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    margin-top: 16px;
+    background-color: var(--font-color);
+    font-size: 14px;
+}
+
+@media (max-width: 460px) {
+    form {
+        padding: 0px 20px;
+    }
+}
